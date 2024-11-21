@@ -4,13 +4,13 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 
 public class TestBase {
-    static final String issueName = "ghskfdkaslfd2133";
+    static final String issueName = "Тестируем тест";
     static final String repoPath = "eroshenkoam/allure-example";
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
-        Configuration.timeout = 7000;
+        Configuration.timeout = 10000;
     }
     @AfterEach
     void afterEach() {
