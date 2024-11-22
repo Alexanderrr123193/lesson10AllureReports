@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: '8'
+          java-version: '17'
 
       # Запускаем Selenoid
       - uses: Xotabu4/selenoid-github-action@v2
